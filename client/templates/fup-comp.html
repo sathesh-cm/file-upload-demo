@@ -1,0 +1,34 @@
+<div>
+<div class="row" style="display:flex;align-items:center;">
+    <div class="col-md-1">
+        
+            <span class="btn btn-primary fileinput-button" ng-show="!$ctrl.showCancel">
+                <i class="icon-upload icon-white"></i>
+                <input class="fileupload" type="file" name="file[]" data-url="https://upload.wistia.com"/>
+                <span>Upload</span>
+            </span>
+            <span class="btn btn-danger fileupload-cancel" ng-show="$ctrl.showCancel">
+                <i class="icon-delete icon-white"></i>
+                <span>Cancel</span>
+            </span>
+        
+    </div>
+    <div class="col-md-6">
+        <div class="progress" ng-show="$ctrl.percentage" style="margin:0px">
+            <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+              0%
+            </div>
+        </div>
+        <div class="fileupload-error-msg" style="color:red" ng-show="$ctrl.showError"></div>
+    </div>
+</div>
+<div class="row video-embed" ng-show="$ctrl.showVideo">
+    <div class="col-md-12">        
+        <div class="cont wistia_embed" style="height:300px;"></div>
+        <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+<div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+<div class="cont wistia_embed videoFoam=true"  style="height:100%;width:100%">&nbsp;</div></div></div>
+
+    </div>
+</div>
+</div>

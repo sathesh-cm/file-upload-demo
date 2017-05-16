@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development node ./lib/server.js"
+  },
+  "author": "sathesh.fdd@gmail.com",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "http": "0.0.0",
+    "path": "^0.12.7"
+  }
+}
