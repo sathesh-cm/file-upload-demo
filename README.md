@@ -1,5 +1,5 @@
 # file-upload-demo
-angular file upload demo
+angular file upload to 3rd party video hosting server wistia - demo
 
 ## Server dependency installation
 
